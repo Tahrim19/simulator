@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Additional Styles for the Queue Component */
+.model-buttons {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange buttons vertically */
+    align-items: center; /* Center buttons */
+    margin-top: 20px; /* Space above buttons */
+}
+
+.model-button {
+    width: 200px; /* Set a specific width for buttons */
+    margin: 10px 0; /* Vertical spacing between buttons */
+    padding: 10px; /* Padding inside buttons */
+    background-color: #007bff; /* Bootstrap-like blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

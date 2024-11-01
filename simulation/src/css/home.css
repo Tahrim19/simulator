@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Soft background color */
+    color: #333; /* Dark text color */
+}
+
+/* Centered Content */
+.container {
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 50px auto; /* Center align with margin */
+    padding: 20px; /* Padding inside container */
+    background: white; /* White background for container */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text for better alignment */
+}
+
+/* Heading Styles */
+h1 {
+    color: #2c3e50; /* Darker color for main heading */
+    font-size: 2.2em; /* Medium font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+h4 {
+    color: #34495e; /* Color for sub-heading */
+    margin-bottom: 20px; /* Space below the sub-heading */
+}
+
+/* Member List Styles */
+.member-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Space above and below */
+}
+
+.member-list p {
+    margin: 5px 0; /* Space between member entries */
+    font-size: 1em; /* Regular font size for member names */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Bootstrap-like blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin: 5px; /* Space between buttons */
+
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em; /* Responsive font size */
+    }
+
+    button {
+        width: 100%; /* Full width buttons on smaller screens */
+        margin: 10px 0; /* Vertical margin */
+    }
+}
