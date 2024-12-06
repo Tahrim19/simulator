@@ -9,6 +9,7 @@ import MM1 from './components/MM1';
 import MMS from './components/MMS';
 import GG1 from './components/GG1';
 import GGS from './components/GGS';
+import MMSimulate from './simulate/MMSimulate'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path='/mgs' element={<MGS/>}/>
         <Route path='/gg1' element={<GG1/>}/>
         <Route path='/ggs' element={<GGS/>}/>
+        <Route path='/mmSimulate' element={<MMSimulate/>}/>
+
       </Routes>
     </Router>
   );
